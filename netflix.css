@@ -1,0 +1,151 @@
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: #fff;
+}
+.header{
+    width: 84.5%;
+    height: 95.5vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(Netflixcover.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+img{
+    width: 18%;
+    max-height: 15%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001; 
+    color: #fff;
+    padding: 7px 20px; /* size khung button*/
+    font-size: 12px;
+    border-radius: 4px;  /* vien bo cu khung button*/
+    margin-left: 10px;   /* canh le trai */
+    cursor: pointer;
+}
+.language-btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+}
+.language-btn img{
+    vertical-align: middle;
+    width: 10px;
+    margin-left: 10px;
+}
+.header-content{
+    position: absolute;
+    top: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.header-content h1{
+    font-size: 55px;
+    line-height: 50px;
+    font-weight: 600px;
+    max-width: 650px;
+}
+.header-content h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.header-content p{
+    font-size: 22px;
+    font-weight: 300px;
+    margin-bottom: 20px;
+}
+.email-signup{
+    display: flex;
+    background: #fff;
+    justify-content: space-between;
+    border-radius: 6px;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.email-signup input{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    font-size: 25px;
+    flex: 1;
+    margin-left: 20px;
+}
+.email-signup button{
+    background: #db0001;
+    outline: 0;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 15px 25px;
+
+}
+.features{
+    padding: 50px 10%;
+    font-size: 12px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.text-col{
+    flex-basis: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.text-col h2{
+    font-size: 56px;
+    line-height: 50px;
+    font-weight: 600px;
+    max-width: 650px;
+}
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.text-col p{
+    font-size: 22px;
+    font-weight: 300px;
+    margin-bottom: 20px;
+}
+.video-col{
+    flex-basis: 45%;
+    margin-bottom: 20px;
+}
+.video-col video{
+    display: block;
+    width: 110%;
+    margin: auto;
+}
+
